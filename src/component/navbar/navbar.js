@@ -12,6 +12,24 @@ const Navbar = () => {
                 <p className='font-playfair'>
                     If you'd like, I can also give you the exact font-size + spacing combo to perfectly match that screenshot.
                 </p>
+                <p className='font-playfair'>
+                    If you'd like, I can also give you the exact font-size + spacing combo to perfectly match that screenshot.
+                </p>
+                <p className='font-playfair'>
+                    If you'd like, I can also give you the exact font-size + spacing combo to perfectly match that screenshot.
+                </p>
+                <p className='font-playfair'>
+                    If you'd like, I can also give you the exact font-size + spacing combo to perfectly match that screenshot.
+                </p>
+                <p className='font-playfair'>
+                    If you'd like, I can also give you the exact font-size + spacing combo to perfectly match that screenshot.
+                </p>
+                <p className='font-playfair'>
+                    If you'd like, I can also give you the exact font-size + spacing combo to perfectly match that screenshot.
+                </p>
+                <p className='font-playfair'>
+                    If you'd like, I can also give you the exact font-size + spacing combo to perfectly match that screenshot.
+                </p>
         </nav>
     </>
   )
