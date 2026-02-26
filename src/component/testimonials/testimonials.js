@@ -47,7 +47,7 @@ function Testimonials() {
           <h2 className="text-4xl md:text-5xl font-bold text-secondary mb-4">
             Our coffee perfection feedback
           </h2>
-          <p className="text-gray-600">
+          <p className="text-gray-600 text-lg">
             Our customers have amazing things to say about us
           </p>
         </div>

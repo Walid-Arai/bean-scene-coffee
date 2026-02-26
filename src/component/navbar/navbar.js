@@ -41,7 +41,7 @@ const Navbar = () => {
                 return (
                   <li key={index}>
                     <a
-                      className="px-2 py-4 md:py-6 inline-block cursor-pointer z-10"
+                      className="px-2 py-4 md:py-6 inline-block cursor-pointer z-10 hover:underline "
                       href={navMenu.link}
                     >
                       {navMenu.name}
@@ -55,8 +55,8 @@ const Navbar = () => {
             <a href="#signin" className=" underline">
                 Sign In
             </a>
-            <a href="#signin" className="btn-primary">
-                Sign Up
+            <a href="#signin" className="btn-primary text-secondary">
+                SignUp
             </a>
             </div>
           {/* Mobile Responsive Menu */}
@@ -72,7 +72,7 @@ const Navbar = () => {
                 <ul className="flex flex-col items-center gap-4 shadow-lg p-10 rounded-2xl bg-primary/50">
                   {navMenus.map((navMenu, index) => {
                     return (
-                      <li key={index} className="w-full p-2 rounded-lg hover:bg-secondary/20 transition-all duration-300">
+                      <li key={index} className="w-full p-2 rounded-lg hover:bg-secondary/20 transition-all duration-300 ">
                         <a
                           className="text-xl font-semibold px-2 py-4 md:py-6 inline-block cursor-pointer"
                           href={navMenu.link}
@@ -101,7 +101,7 @@ const Navbar = () => {
                 </p>
                 <a
                   href="#rodernow"
-                  className="inline-block btn-primary !my-3 text-secondary"
+                  className="inline-block btn-primary !my-3 text-black font-bold"
                 >
                   Order Now
                 </a>

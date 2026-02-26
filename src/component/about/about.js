@@ -10,7 +10,7 @@ const About = () =>{
                 Discover the best Coffee
             </h1>
 
-            <p className="leading-8 text-gray-600 pb-4">
+            <p className="leading-8 text-gray-600 pb-4 font-playfair text-lg">
                 Bean Scene is a coffee shop that provides you with quality coffee
                 that helps boost your productivity and helps build your mood.
                 Having a cup of coffee is good, but having a cup of real coffee is greater.
@@ -19,9 +19,9 @@ const About = () =>{
 
             <a
                 href="#ordernow"
-                className="inline-block btn-primary my-3"
+                className="inline-block btn-primary my-3 text-black font-bold"
             >
-                Order Now
+                Learn More
             </a>
             </div>
             

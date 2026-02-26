@@ -15,7 +15,7 @@ const Hero = () => {
             <h2 className="text-4xl md:text-5xl font-bold text-secondary mb-4">
               Enjoy a new blend of coffee style
             </h2>
-            <p className="text-gray-600">
+            <p className="text-gray-600 text-lg">
               Explore all flavours of coffee with us. There is always a new cup worth experiencing
             </p>
           </div>
@@ -38,7 +38,7 @@ const Hero = () => {
                     {item.price}
                   </p>
 
-                  <button className="bg-primary text-secondary px-6 py-2 rounded-full transition absolute botttom-[-20px] -translate-x-1/2">
+                  <button className="bg-primary text-black px-6 py-2 rounded-full transition absolute botttom-[-20px] -translate-x-1/2 font-bold">
                     Order Now
                   </button>
                 </div>
