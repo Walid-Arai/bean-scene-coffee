@@ -34,7 +34,7 @@ const Navbar = () => {
       >
         <div className="absolute inset-0 bg-black/20 "></div>
         <div className="container flex justify-between items-center py-3 sm:py-0">
-          <h1 className="font-clicker text-4xl z-10">Bean Scene</h1>
+          <h1 className="font-clicker text-lg md:text-4xl z-10">Bean Scene</h1>
           <div className="hidden sm:block z-10">
             <ul className="flex items-center  gap-4 text-white font-playfair">
               {navMenus.map((navMenu, index) => {
@@ -51,7 +51,7 @@ const Navbar = () => {
               })}
             </ul>
           </div>
-            <div className="flex items-center gap-4 z-10">
+            <div className="flex items-center gap-4 z-10 text-sm">
             <a href="#signin" className=" underline">
                 Sign In
             </a>
@@ -61,7 +61,7 @@ const Navbar = () => {
             </div>
           {/* Mobile Responsive Menu */}
           <div className="sm:hidden z-20">
-            <div className="flex items-center gap-4">
+            <div className="flex items-center gap-4 text-sm md:text-md ">
               <i
                 className="fa-solid fa-bars text-2xl cursor-pointer "
                 onClick={toggleMenu}
@@ -91,9 +91,9 @@ const Navbar = () => {
         <section className="w-full ">
           <div className="container grid grid-cols-1 sm:grid-cols-2 items-center sm:h-[600px] space-y-4 py-16 sm:py-0 text-white font-playfair">
             <div className="z-10">
-              <div className="grid justify-items-center sm:justify-items-start ">
+              <div className="grid justify-items-center sm:justify-items-start space-y-4">
                 <p className="text-xl">We’ve got your morning covered with</p>
-                <p className="text-[220px] w-full font-clicker">Coffee</p>
+                <p className="text-9xl md:text-[220px] w-full font-clicker">Coffee</p>
                 <p className="text-center sm:text-left text-xl">
                   It is best to start your day with a cup of coffee. Discover
                   the best flavours coffee you will ever have.
