@@ -52,10 +52,10 @@ const Navbar = () => {
             </ul>
           </div>
             <div className="flex items-center gap-4 z-10">
-            <a href="" className=" underline">
+            <a href="#signin" className=" underline">
                 Sign In
             </a>
-            <a href="" className="btn-primary">
+            <a href="#signin" className="btn-primary">
                 Sign Up
             </a>
             </div>
