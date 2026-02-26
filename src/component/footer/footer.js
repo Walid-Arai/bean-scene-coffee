@@ -61,7 +61,7 @@ function Footer() {
       ></div>
 
       {/* Gradient Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-secondary via-secondary/90 to-secondary/70"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-[#442808] via-[#633B0C] to-secondary/70"></div>
 
       {/* Content */}
       <div className="container relative mx-auto px-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 font-playfair z-20">

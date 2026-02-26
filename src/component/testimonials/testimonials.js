@@ -7,7 +7,7 @@ const testimonials = [
     role: "Project Manager",
     image: "https://randomuser.me/api/portraits/men/32.jpg",
     message:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry."
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const testimonials = [
     role: "UI/UX Designer",
     image: "https://randomuser.me/api/portraits/women/44.jpg",
     message:
-      "This platform completely transformed our workflow. The experience is smooth .Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+      "This platform completely transformed our workflow. The experience is smooth .Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry."
   },
   {
     id: 3,
@@ -23,7 +23,7 @@ const testimonials = [
     role: "Software Engineer",
     image: "https://randomuser.me/api/portraits/men/54.jpg",
     message:
-      "An outstanding solution. The performance and support are unmatched in the industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+      "An outstanding solution. The performance and support are unmatched in the industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry."
   }
 ];
 
@@ -41,7 +41,7 @@ function Testimonials() {
   const testimonial = testimonials[current];
 
   return (
-    <section className="py-20 font-playfair">
+    <section className="py-20 font-playfair mb-16">
       <div className="mx-auto ">
         <div className="text-center mb-14 container">
           <h2 className="text-4xl md:text-5xl font-bold text-secondary mb-4">
@@ -66,7 +66,7 @@ function Testimonials() {
           
 
           <div className="max-w-3xl mx-auto text-center transition-all duration-500 pb-16 md:pt-8 sm:pb-20 mt-8 sm:mt-10">
-            <p className="text-gray-600 text-base sm:text-lg leading-relaxed mb-6 sm:mb-8 px-2 line-clamp-3">
+            <p className="text-gray-600 text-base sm:text-lg leading-relaxed mb-6 sm:mb-8 px-2 line-clamp-5">
               {testimonial.message}
             </p>
 
