@@ -41,6 +41,9 @@ const About = () =>{
             alt=""
             className="absolute bottom-[-60px] left-0  w-60 md:w-96 pointer-events-none select-none z-10"
           />
+
+
+          
         </div>
     </>
     )
